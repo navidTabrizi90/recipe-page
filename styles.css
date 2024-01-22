@@ -8,10 +8,15 @@
     --WengeBrown: hsl(30, 10%, 34%);
     --DarkCharcoal: hsl(24, 5%, 18%);
 }
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background: var(--Eggshell);
 }
+
 .container {
     width: 1440px;
     display: flex;
@@ -27,6 +32,7 @@ body {
     width: 736px;
     gap: 40px;
     padding: 40px;
+
     background: var(--White);
     align-items: flex-start;
     border-radius: 24px;
@@ -37,6 +43,12 @@ header > img {
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+h1 {
     font-family: 'Young Serif';
     font-size: 40px;
     font-weight: 400;
@@ -52,4 +64,14 @@ header > img {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+}
+
+.prep-time {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 32px 0;
+    padding: 28px;
+    background: var(--RoseWhite);
+    border-radius: 12px;
 }
