@@ -20,6 +20,10 @@ body {
     font-family: Outfit;
 }
 
+p {
+    color: var(--WengeBrown);
+}
+
 .container {
     width: 1440px;
     display: flex;
@@ -86,7 +90,8 @@ h1 {
     color: var(--DarkRaspberry);
 }
 
-ul,ol {
+ul,
+ol {
     display: flex;
     flex-direction: column;
     padding-left: 17px;
@@ -113,7 +118,9 @@ span {
 }
 
 
-.instruction li:before, .prep-time li:before, .ingredients li:before {
+.instruction li:before,
+.prep-time li:before,
+.ingredients li:before {
     content: "";
     /* position: absolute; */
     transform: translateY(-50%);
@@ -160,4 +167,39 @@ hr {
     gap: 24px;
 
 }
-    
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+table {
+
+    border-collapse: collapse;
+
+
+}
+
+.nutrition-value {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: var(--Nutmeg);
+}
+
+.nutrition-prop {
+    color: var(--WengeBrown);
+}
+
+td {
+    padding: 12px 32px;
+    /* Or any other value for spacing */
+    border-bottom: 1px solid #ccc;
+    /* Assuming a light gray dashed border */
+}
+
+tr:last-child td {
+    border-bottom: none
+}
