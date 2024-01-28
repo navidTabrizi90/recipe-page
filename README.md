@@ -17,7 +17,7 @@ The challenge was to build a responsive recipe page for a simple omelette recipe
 
 ### Screenshot
 
-[desktop mode ](./assets/screenshots/desktop-mode.png)
+[desktop mode ](./assets/screenshots/desktop-mode.png)\
 [mobile mode](./assets/screenshots/mobile-mode.png)
 
 ## Installation
